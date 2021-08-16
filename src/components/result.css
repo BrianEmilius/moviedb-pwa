@@ -1,0 +1,21 @@
+.resultCard {
+	margin: .5em 0;
+	display: flex;
+	gap: 1em;
+	justify-content: space-between;
+}
+
+.result__heading {
+	font-size: 1em;
+	font-weight: 700;
+	margin: 0;
+}
+
+.result__year {
+	margin: 0;
+}
+
+.result__poster {
+	max-width: 150px;
+	display: block;
+}
