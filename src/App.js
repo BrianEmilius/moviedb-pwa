@@ -25,11 +25,11 @@ function App() {
 	return (
 		<SearchContext.Provider value={searchState}>
 			<div className="App">
-        <button onClick={displayNotification}>Notify me</button>
 				<Router>
 					<Index path="/" />
 					<Movie path="/movie/:id" />
 				</Router>
+        <button onClick={displayNotification}>Notify me</button>
 			</div>
 		</SearchContext.Provider>
 	);
